@@ -1,15 +1,14 @@
-#define BLYNK_TEMPLATE_ID "TMPLa_QcQg7B"
-#define BLYNK_TEMPLATE_NAME "Monitoring Tanah"
-#define BLYNK_AUTH_TOKEN "z8Hm9JB1E07riWhGsnQ5UoltJlmm_Uff"  // Token untuk komunikasi dengan blynk
+#define BLYNK_TEMPLATE_ID "***********"
+#define BLYNK_TEMPLATE_NAME "**********"
+#define BLYNK_AUTH_TOKEN "*****************"  // Token untuk komunikasi dengan blynk
 
 #define BLYNK_PRINT Serial
 #include <ESP8266_Lib.h>
 #include <BlynkSimpleShieldEsp8266.h>
 #include <DHT.h>
 
-char ssid[] = "TexasKost";     // Your WiFi SSID
-char pass[] = "wisnuudahpwt";  // Paswword SSID/WiFi
-char auth[] = "z8Hm9JB1E07riWhGsnQ5UoltJlmm_Uff";
+char ssid[] = "************";     // Your WiFi SSID
+char pass[] = "************";  // Paswword SSID/WiFi
 
 #include <SoftwareSerial.h>      //Library yang digunakan untuk membuat objek espserial
 SoftwareSerial EspSerial(2, 3);  // RX, TX //Mendeskripsikan pin Rx dan Tx yang digunakan oleh modul ESP-01
